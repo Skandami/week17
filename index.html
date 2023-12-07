@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/assets/normalize.css" />
+		<title>Автомагазин</title>
+        <style>
+        * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+    font-size: xx-large;
+    border-color:orange;
+    border-style:dotted;
+    padding: 25px;
+}
+.body {
+  background-color:black;
+  color:antiquewhite;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.list {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vehicle {
+  padding: 2vh 10vw;
+  margin: 1vh auto;
+}
+
+.image {
+  margin: 0 auto;
+  width: 55vw;
+  border-radius: 20px;}
+
+  </style>
+	</head>
+	<body class="body">
+		<h1 class="title">Автомобили и мотоциклы по выгодным ценам!</h1>
+		<div class="list" id="list">
+		</div>
+		<script src="/carTrade.js"></script>
+	</body>
+</html>
